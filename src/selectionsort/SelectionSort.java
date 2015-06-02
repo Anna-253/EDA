@@ -27,14 +27,4 @@ public class SelectionSort implements AlgoritmoOrdenacao {
             }
         }
     }
-    
-    public static void main(String[] args) {
-        SelectionSort selectionsort = new SelectionSort();
-        
-        int[] v = {8,0,12,34,1,65,33,7};
-        
-        selectionsort.ordenar(v);
-        
-        System.out.println(Arrays.toString(v));
-    }
 }
